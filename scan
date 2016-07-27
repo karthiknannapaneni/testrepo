@@ -2,3 +2,9 @@ echo "- - -" > /sys/class/scsi_host/host0/scan
 echo "- - -" > /sys/class/scsi_host/host1/scan
 echo "- - -" > /sys/class/scsi_host/host2/scan
 echo 1 > /sys/block/sdb/device/rescan
+
+systemctl list-units
+  757  systemctl --type=service
+  758  systemctl deamon reload
+  759  systemctl daemon reload
+
