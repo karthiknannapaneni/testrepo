@@ -8,3 +8,10 @@ systemctl list-units
   758  systemctl deamon reload
   759  systemctl daemon reload
 
+327  fdisk -l
+  328  pvcreate /dev/sdb
+  329  pvcreate /dev/sdc
+   331  vgcreate data /dev/sdb
+  332  vgextend data /dev/sdc
+   340  lvcreate -L 50G -n backup data
+  341  lvcreate -L 50G -n fecru data
