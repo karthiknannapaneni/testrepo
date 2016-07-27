@@ -15,3 +15,5 @@ systemctl list-units
   332  vgextend data /dev/sdc
    340  lvcreate -L 50G -n backup data
   341  lvcreate -L 50G -n fecru data
+
+pushing updates to git........
