@@ -17,3 +17,6 @@ systemctl list-units
   341  lvcreate -L 50G -n fecru data
 
 pushing updates to git........
+
+Run Pre-Recovery Check before start recovery. 
+
